@@ -1,6 +1,7 @@
 import datetime 
 import urllib.request
 import argparse
+import logging
 
 def downloadData(url):
     with urllib.request.urlopen(url) as response:
